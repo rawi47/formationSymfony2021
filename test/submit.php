@@ -1,5 +1,12 @@
 <?php
+session_start();
 $email = $_POST['email'];
-$message = $_POST['message'];
+$email = $_POST['message'];
+$email = $_POST['name'];
 
-echo $email . " : " . $message;
+$_SESSION["email"] = $email;
+$_SESSION["message"] = $email;
+$_SESSION["name"] = $email;
+
+header("Location:index.php");
+

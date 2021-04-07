@@ -16,7 +16,7 @@ ul {
     padding: 0;
 }
 
-li {
+#menu li {
     float: left;
     padding: 10px;
 }
@@ -43,6 +43,10 @@ footer {
     height: 120px;
 }
 
+main {
+    padding-bottom: 120px;
+}
+
 .logo {
     float: left;
     width: 20%;
@@ -56,4 +60,60 @@ footer {
 #controle {
     float: left;
     width: 20%;
+    padding-top: 10px;
+}
+
+.controle-header {
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 600;
+    width: 79%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.upper-div {
+    position: relative;
+    width: 30%;
+}
+
+.upper-div ul li {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+.upper-div ul {
+    display: none;
+}
+
+.form-element {
+    padding: 15px;
+}
+
+input[type=email],
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.form-element label {
+    font-size: 14px;
+    font-weight: 800;
 }
