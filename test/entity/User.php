@@ -47,7 +47,7 @@ class User
 
     public function getPassword()
     {
-        return $this->prenom;
+        return $this->password;
     }
     public function setPassword($password)
     {

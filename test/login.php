@@ -16,7 +16,7 @@ session_start();
             </p>
         </div>
         <div>
-        <form method="post" action="login.php">
+        <form method="post" action="service/loginUser.php">
                 
                 <div class="form-element">
                     <label>Email</label>
