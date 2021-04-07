@@ -14,6 +14,7 @@
                 <div class="controle-header" onmouseover="showMenu()" onmouseout="hideMenu()">Configuration</div>
                 <ul id="config-menu">
                     <li><a href="profile.php">Profile</a></li>
+                    <li><a href="login.php">Connectez-vous</a></li>
                     <li>Logout</li>
                 </ul>
             </div>

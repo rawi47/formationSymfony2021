@@ -95,7 +95,8 @@ main {
 }
 
 input[type=email],
-input[type=text] {
+input[type=text],
+input[type=password] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -116,4 +117,8 @@ textarea {
 .form-element label {
     font-size: 14px;
     font-weight: 800;
+}
+
+.upper-div ul li a {
+    color: #000;
 }
