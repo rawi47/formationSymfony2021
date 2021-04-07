@@ -15,6 +15,7 @@
                 <ul id="config-menu">
                     <li><a href="profile.php">Profile</a></li>
                     <li><a href="login.php">Connectez-vous</a></li>
+                    <li><a href="register.php">S'enregistrer</a></li>
                     <li>Logout</li>
                 </ul>
             </div>
