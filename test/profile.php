@@ -12,7 +12,8 @@ session_start();
         <div>
             <h1>Profile </h1>
             <p>
-            <?php echo $_SESSION["name"] ?>
+            Nom : <?php echo $_SESSION["name"] ?><br>
+            Email : <?php echo $_SESSION["email"] ?>
             </p>
         </div>
 
