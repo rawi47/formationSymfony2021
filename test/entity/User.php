@@ -26,4 +26,31 @@ class User
         $this->nom = $nom;
     }
 
+    public function getPrenom()
+    {
+        return $this->prenom;
+    }
+    public function setPrenom($prenom)
+    {
+        $this->prenom = $prenom;
+    }
+
+
+    public function getEmail()
+    {
+        return $this->email;
+    }
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
+
+    public function getPassword()
+    {
+        return $this->prenom;
+    }
+    public function setPassword($password)
+    {
+        $this->password = $password;
+    }
 }

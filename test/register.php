@@ -10,7 +10,7 @@
 
         </div>
         <div>
-            <form method="post" action="createUser.php">
+            <form method="post" action="service/createUser.php">
                 <div class="form-element">
                     <label>Nom</label>
                     <input type="text" name="name" />
@@ -26,7 +26,7 @@
 
                 <div class="form-element">
                     <label>Password</label>
-                    <input type="text" name="password" />
+                    <input type="password" name="password" />
                 </div>
          
                 <div class="form-element">
